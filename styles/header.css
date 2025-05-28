@@ -1,0 +1,31 @@
+.header {
+  padding-top: 56px;
+  padding-bottom: 56px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__logo {
+  font-family: "JacquesFrancois", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: #000;
+  padding: 10px;
+  width: 94px;
+  height: 50px;
+  text-decoration: none;
+  margin-right: auto;
+}
+.header__user-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.header__login {
+  color: #b48912;
+  text-transform: uppercase;
+}

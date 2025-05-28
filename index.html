@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IKIGAI</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body class="body">
+    <div class="preloader">
+        <span class="dot1"></span>
+        <span class="dot2"></span>
+        <span class="dot3"></span>
+    </div>
+    <div class="content">
+        <header class="header container">
+            <a href="/" class="header__logo">IKIGAI</a>
+            <nav class="header__menu menu">
+                <ul class="menu__list">
+                    <li class="menu__item"> <a class="menu__link menu__login" href="#">Вход/регистрация</a></li>
+                    <li class="menu__item"> <a class="menu__link" href="#location">Контакты</a></li>
+                    <li class="menu__item"> <a class="menu__link" href="#">Баллы</a></li>
+                    <li class="menu__item"> <a class="menu__link" href="#">Меню</a></li>
+                </ul>
+            </nav>
+            <button class="button header__button" data-delivery type="button">
+                Заказать доставку
+            </button>
+        </header>
+        <main class="main container">
+            <section class="promo">
+                <h1 class="promo__title">IKIGAI</h1>
+                <button class="button promo__button" data-delivery type="button">
+                    Заказать доставку
+                </button>
+                <img class="promo__image" src="images/promo.jpg" alt="роллы" width="1276" height="644">
+            </section>
+            <section class="card">
+                <h2 class="card__title">Лучшее предложение</h2>
+                <ul class="card__list">
+                    <li class="card__item">
+                        <img src="images/roll.png" alt="порция 1" width="405" height="405" class="card__image">
+                        <h3 class="card__subtitle">заголовок1</h3>
+                        <p class="card__text">состав</p>
+                        <p class="card__description" hidden>Сыр творожный,икра масаго,креветки отварные,рис,водоросли
+                            нори
+                            Дополнительно: имбирь (15 г), васаби (5 г), соевый соус (1 шт.), палочки бамбуковые</p>
+                    </li>
+                    <li class="card__item">
+                        <img src="images/roll.png" alt="порция 2" width="405" height="405" class="card__image">
+                        <h3 class="card__subtitle">заголовок2</h3>
+                        <p class="card__text">состав</p>
+                        <p class="card__description" hidden>Сыр творожный,лосось слабосоленый,креветки отварные,угорь
+                            жареный,соус унаги,кунжут белый,кунжут чёрный,рис,водоросли
+                            нори
+                            Дополнительно: имбирь (15 г), васаби (5 г), соевый соус (1 шт.), палочки бамбуковые</p>
+                    </li>
+                    <li class="card__item">
+                        <img src="images/roll.png" alt="порция 3" width="405" height="405" class="card__image">
+                        <h3 class="card__subtitle">заголовок3</h3>
+                        <p class="card__text">состав</p>
+                        <p class="card__description" hidden>Сыр творожный,огурец,куриная грудка копчёная,сыр
+                            чеддер,рис,водоросли нори
+                            Дополнительно: имбирь (15 г), васаби (5 г), соевый соус (1 шт.), палочки бамбуковые</p>
+                    </li>
+                </ul>
+            </section>
+            <section class="menu-list">
+                <h2 class="menu-list__title">Меню</h2>
+                <div class="menu-list__cards">
+                    <div class="menu-list__item">
+                        <img src="images/filadelf.jpg" alt="Ролл Филадельфия" width="400" height="300" />
+                        <div class="menu-list__info">
+                            <h3 class="menu-list__subtitle">Филадельфия</h3>
+                            <p class="menu-list__description">Классический ролл с лососем, сливочным сыром и огурцом.
+                            </p>
+                            <div class="menu-list__price">490 ₽</div>
+                        </div>
+                    </div>
+                    <div class="menu-list__item">
+                        <img src="images/californ.webp" alt="Ролл Калифорния с авокадо" width="400" height="300" />
+                        <div class="menu-list__info">
+                            <h3 class="menu-list__subtitle">Калифорния с авокадо</h3>
+                            <p class="menu-list__description">Свежие роллы с крабовыми палочками, авокадо и огурцом.</p>
+                            <div class="menu-list__price">450 ₽</div>
+                        </div>
+                    </div>
+                    <div class="menu-list__item">
+                        <img src="images/tunez.jpg" alt="Спайси тунец ролл" width="400" height="300" />
+                        <div class="menu-list__info">
+                            <h3 class="menu-list__subtitle">Спайси Тунец</h3>
+                            <p class="menu-list__description">Острые роллы с тунцом и соусом спайси.</p>
+                            <div class="menu-list__price">520 ₽</div>
+                        </div>
+                    </div>
+                    <div class="menu-list__item">
+                        <img src="images/filadelf.jpg" alt="Ролл Филадельфия" width="400" height="300" />
+                        <div class="menu-list__info">
+                            <h3 class="menu-list__subtitle">Филадельфия</h3>
+                            <p class="menu-list__description">Классический ролл с лососем, сливочным сыром и огурцом.
+                            </p>
+                            <div class="menu-list__price">490 ₽</div>
+                        </div>
+                    </div>
+                    <div class="menu-list__item">
+                        <img src="images/californ.webp" alt="Ролл Калифорния с авокадо" width="400" height="300" />
+                        <div class="menu-list__info">
+                            <h3 class="menu-list__subtitle">Калифорния с авокадо</h3>
+                            <p class="menu-list__description">Свежие роллы с крабовыми палочками, авокадо и огурцом.</p>
+                            <div class="menu-list__price">450 ₽</div>
+                        </div>
+                    </div>
+                    <div class="menu-list__item">
+                        <img src="images/tunez.jpg" alt="Спайси тунец ролл" width="400" height="300" />
+                        <div class="menu-list__info">
+                            <h3 class="menu-list__subtitle">Спайси Тунец</h3>
+                            <p class="menu-list__description">Острые роллы с тунцом и соусом спайси.</p>
+                            <div class="menu-list__price">520 ₽</div>
+                        </div>
+                    </div>
+                    <div class="menu-list__item">
+                        <img src="images/filadelf.jpg" alt="Ролл Филадельфия" width="400" height="300" />
+                        <div class="menu-list__info">
+                            <h3 class="menu-list__subtitle">Филадельфия</h3>
+                            <p class="menu-list__description">Классический ролл с лососем, сливочным сыром и огурцом.
+                            </p>
+                            <div class="menu-list__price">490 ₽</div>
+                        </div>
+                    </div>
+                    <div class="menu-list__item">
+                        <img src="images/californ.webp" alt="Ролл Калифорния с авокадо" width="400" height="300" />
+                        <div class="menu-list__info">
+                            <h3 class="menu-list__subtitle">Калифорния с авокадо</h3>
+                            <p class="menu-list__description">Свежие роллы с крабовыми палочками, авокадо и огурцом.</p>
+                            <div class="menu-list__price">450 ₽</div>
+                        </div>
+                    </div>
+                    <div class="menu-list__item">
+                        <img src="images/tunez.jpg" alt="Спайси тунец ролл" width="400" height="300" />
+                        <div class="menu-list__info">
+                            <h3 class="menu-list__subtitle">Спайси Тунец</h3>
+                            <p class="menu-list__description">Острые роллы с тунцом и соусом спайси.</p>
+                            <div class="menu-list__price">520 ₽</div>
+                        </div>
+                    </div>
+            </section>
+            <section class="action ">
+                <h2 class="action__title">Акции</h2>
+                <div class="action__wrapper swiper">
+
+                    <div class="action__list swiper-wrapper">
+                        <a class="action__card swiper-slide" href="#">
+                            <img src="images/action1.jpg" alt="акция">
+                            <div class="action__text">
+                                <h3 class="action__subtitle">Товар недели со скидкой 15%</h3>
+                                <p class="action__description">Дарим скидку на товар недели при заказе доставки на нашем
+                                    сайте</p>
+                            </div>
+                        </a>
+                        <a class="action__card swiper-slide" href="#">
+                            <img src="images/action2.jpg" alt="акция">
+                            <div class="action__text">
+                                <h3 class="action__subtitle">Обеды в офис со скидкой 10%</h3>
+                                <p class="action__description">Выгодные комплексные обеды с доставкой для предприятий и
+                                    организаций</p>
+                            </div>
+                        </a>
+                        <a class="action__card swiper-slide" href="#">
+                            <img src="images/action3.jpg" alt="акция">
+                            <div class="action__text">
+                                <h3 class="action__subtitle">с уважением к старшим</h3>
+                                <p class="action__description">Скидка 10% покупателям старше 55 лет по субботам и
+                                    воскресеньям.</p>
+                            </div>
+                        </a>
+
+                    </div>
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+
+            </section>
+            <section class="reviews" id="reviews">
+                <h2 class="reviews__title">Отзывы</h2>
+                <div class="reviews__container">
+                    <ul class="reviews__list">
+                        <!-- <li class="reviews__item">
+                            <h3 class="reviews__subtitle">Ульяна</h3>
+                            <p class="reviews__text">всегда заказываю доставкой, роллы упаковывают хорошо, роллы очень
+                                вкусные, продукты свежие, количество набора очень
+                                радует, есть приятные скидки и система начисления бонусов, время ожидания соответствует
+                                заявленному</p>
+                        </li>
+                        <li class="reviews__item">
+                            <h3 class="reviews__subtitle">Степан</h3>
+                            <p class="reviews__text">Заказали сегодня сет роллов. Это вкусно, это действительно очень
+                                вкусно, спасибо большое повару, будем заказывать ещё,
+                                дальнейшего процветания и благодарных клиентов</p>
+                        </li>
+                        <li class="reviews__item">
+                            <h3 class="reviews__subtitle">Мария</h3>
+                            <p class="reviews__text">Очень вкусные роллы, всегда заказываем только в IKIGAI. Быстрая
+                                доставка, доступные цены</p>
+                        </li> -->
+                    </ul>
+                    <img src="images/suschi.jpg" alt=" изображение суши" width="600" height="545"
+                        class="reviews__image">
+                </div>
+                <button class="button reviews__button">
+                    Оставить отзыв
+                </button>
+            </section>
+
+            <section class="location" id="location">
+                <h2 class="location__title">Где мы находимся</h2>
+                <p class="location__text">Приходите в наш ресторан в Москве, ул. Пушкина, д. 10. Мы ждем вас с 11:00 до
+                    23:00 ежедневно!</p>
+                <span class="location__contact">Наш номер:
+                    <a class="location__tel" href="#">+79992223314</a>
+                </span>
+                <div class="location__map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2244.303887482488!2d37.61763381541527!3d55.75581488055383!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x414ab7af8194307f%3A0xbeb388c52ba3f7a6!2z0JrQvtC70YzQvdCw0Y8g0LXQu9GO0YLRjCwgMTAsINCa0LjQvdC40LrQuCwg0JrQvtC70YzQvdCw0Y8!5e0!3m2!1sru!2sru!4v1695032782000!5m2!1sru!2sru"
+                        width=100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade" title="Ikigai">
+                    </iframe>
+                </div>
+            </section>
+        </main>
+        <footer class="footer container">
+            <div class="footer__wrapper">
+                <div class="footer__left-block">
+                    <a href="/" class="footer__logo">IKIGAI</a>
+                    <p class="footer__description">
+                        IKIGAI - это интернет-магазин доставки роллов по самым доступным ценам. В ассортименте более 80
+                        позиций, что позволит каждому найти товар себе по вкусу. Удобное оформление заказа и отзывчивая
+                        поддержка, которая поможет
+                        с любым вопросом.
+                    </p>
+
+                </div>
+                <div class="footer__menu">
+                    <h3 class="footer__subtitle">Пользователю</h3>
+                    <a class="footer__link" href="#">Доставка</a>
+                    <a class="footer__link" href="#">Оплата</a>
+                    <a class="footer__link" href="#reviews">Отзывы</a>
+                </div>
+                <div class="footer__menu">
+                    <h3 class="footer__subtitle">О компании</h3>
+                    <a class="footer__link" href="#">Контакты</a>
+                    <a class="footer__link" href="#">Пользовательское соглашение</a>
+                    <a class="footer__link" href="#">Политика конфиденциальности</a>
+                </div>
+            </div>
+            <div class="footer__social">
+                <a href="" class="footer__link">
+                    <img src="images/icons/facebook.png" alt="facebook" width="40" height="40"
+                        class="footer__icons"></a>
+                <a href="" class="footer__link">
+                    <img src="images/icons/instagram.png" alt="instagram" width="40" height="40"
+                        class="footer__icons"></a>
+                <a href="" class="footer__link">
+                    <img src="images/icons/youtube.png" alt="youtube" width="40" height="40" class="footer__icons"></a>
+                <a href="" class="footer__link">
+                    <img src="images/icons/instagram.png" alt="instagram" width="40" height="40"
+                        class="footer__icons"></a>
+            </div>
+            <p class="footer__copy">© Ахмадуллин Марат, Комяк Алиса, Гадалова Арина, Алексеева Инна 2025</p>
+        </footer>
+        <!-- Scrollup -->
+        <button class="scrolltop" type="button" title="Наверх">
+
+            <svg width="64px" height="64px" viewBox="-4.08 -4.08 32.16 32.16" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC"
+                    stroke-width="0.048">
+                </g>
+                <g id="SVGRepo_iconCarrier">
+                    <path d="M12 4V20M12 4L18 10M12 4L6 10" stroke="#ededed" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round"></path>
+                </g>
+            </svg>
+        </button>
+        <!--/ Scrollup -->
+        <!-- Формы -->
+        <div class="dialog dialog--layout" hidden>
+            <div class="dialog__content">
+                <button class="popup__close" type="button" data-close><img src="images/icons/close.svg"
+                        alt="Закрыть окно" width="24" height="24"></button>
+                <!-- Форма "Войдите в профиль" -->
+                <section class="popup" id="popup-select" hidden>
+                    <h2 class="popup__title">Войдите в профиль</h2>
+                    <p class="popup__desc">чтобы получать больше персональных скидок</p>
+                    <div class="popup__buttons">
+                        <button class="button button--accent" type="button" data-login>Войти</button>
+                        <button class="button" type="button" data-registration>Регистрация</button>
+                    </div>
+                </section>
+                <!--/ Форма "Войдите в профиль" -->
+                <!-- Форма "Регистрация" -->
+                <section class="popup" id="popup-registration" hidden>
+                    <h2 class="popup__title popup__title--registration">Регистрация</h2>
+                    <form class="popup__form form" action="/" method="post" id="registration-form">
+                        <input class="form__field" type="text" name="username" placeholder="Имя" id="username" required>
+                        <input class="form__field" type="text" name="login" placeholder="Логин" id="login" required>
+                        <input class="form__field" type="email" name="email" placeholder="Адрес электронной почты"
+                            id="email" required>
+                        <fieldset class="form__fieldset">
+                            <div class="form__field-block">
+                                <input class="form__field" type="password" name="password" placeholder="Пароль"
+                                    id="password" required>
+                                <span class="form__field-alert">Минимум 8 символов</span>
+                            </div>
+                            <input class="form__field" type="password" name="repeat-password"
+                                placeholder="Повторите пароль" id="confirm-password" required>
+                        </fieldset>
+                        <p id="error-message" class="error-message"></p>
+                        <fieldset class="form__buttons">
+                            <button class="button button--accent" type="submit">Зарегистрироваться</button>
+                            <button class="button button--close" data-close type="button">Отмена</button>
+                        </fieldset>
+                        <button class="button button--link" data-login type="button">У меня уже есть аккаунт</button>
+                    </form>
+                </section>
+                <!--/ Форма "Регистрация" -->
+                <!-- Форма "Войти" -->
+                <section class="popup" id="popup-login" hidden>
+                    <h2 class="popup__title">Войти</h2>
+                    <form class="popup__form form" action="/" method="post" id="login-form">
+                        <input class="form__field" type="text" name="login" placeholder="Логин" id="userlogin" required>
+                        <input class="form__field" type="password" name="current-password" placeholder="Пароль"
+                            id="userpassword" required>
+                        <p id="error-message-login" class="error-message"></p>
+                        <fieldset class="form__buttons">
+                            <button class="button button--accent" type="submit">Войти</button>
+                            <button class="button button--close" data-close type="button">Отмена</button>
+                        </fieldset>
+                        <button class="button button--link" data-registration type="button">У меня еще нет
+                            аккаунта</button>
+                    </form>
+                </section>
+                <!--/ Форма "Войти" -->
+                <!-- Форма "Доставка" -->
+                <section class="popup" id="popup-delivery" hidden>
+                    <h2 class="popup__title">Доставка</h2>
+                    <form class="popup__form form" action="/" method="post" id="delivery-form">
+                        <input class="form__field" type="text" id="name" placeholder="Ваше имя" required>
+                        <input class="form__field" type="tel" id="phone" placeholder="Ваш телефон" required>
+                        <input class="form__field" type="text" id="address" placeholder="Адрес доставки" required>
+                        <button class="button button--accent" id=" submitBtn" type="submit">Отправить</button>
+                    </form>
+                </section>
+                <!--/ Форма "Доставка" -->
+            </div>
+        </div>
+        <!--/ Формы -->
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

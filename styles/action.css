@@ -1,0 +1,40 @@
+.action {
+  margin-top: 100px;
+  position: relative;
+}
+.action__wrapper {
+  margin-top: 60px;
+}
+
+.action__card {
+  display: flex;
+  flex-direction: column;
+  border: dashed 1px #cfa446;
+  border-radius: 12px;
+  overflow: hidden;
+  text-decoration: none;
+}
+.action__subtitle {
+  text-transform: uppercase;
+  color: rgb(0, 165, 96);
+}
+.action__text {
+  padding: 0 25px;
+  color: rgb(61 60 58 / 1);
+}
+.action__description {
+  font-size: 18px;
+  line-height: normal;
+}
+.swiper-button-next,
+.swiper-button-prev {
+  position: absolute;
+  transform: translateY(50%);
+  color: rgba(240, 177, 143, 0.91);
+}
+.swiper-button-next {
+  right: -50px;
+}
+.swiper-button-prev {
+  left: -50px;
+}

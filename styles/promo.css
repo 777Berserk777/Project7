@@ -1,0 +1,22 @@
+.promo {
+  padding-top: 40px;
+}
+.promo__title {
+  font-family: "JacquesFrancois", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 96px;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+.promo__button {
+  font-family: "Italiana", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 64px;
+  padding: 20px 77px;
+  letter-spacing: -0.02em;
+  color: #fff;
+}
+.promo__image {
+  margin-top: 107px;
+  border-radius: 80px;
+}

@@ -118,11 +118,11 @@ document.addEventListener("DOMContentLoaded", () => {
     // формы
     /*  Появление и работа с формами */
 
-    const loginMenuButton = document.querySelector('.menu__login');
+    const loginButton = document.querySelector('.header__login');
     const dialogLayout = document.querySelector('.dialog');
     const deliveryButton = document.querySelectorAll('[data-delivery]');
     const header = document.querySelector('.header');
-    if (loginMenuButton && dialogLayout) {
+    if (loginButton && dialogLayout) {
         const closeDialogButtons = dialogLayout.querySelectorAll('[data-close]');
         const selectPopup = dialogLayout.querySelector('#popup-select');
         const loginPopup = dialogLayout.querySelector('#popup-login');
@@ -132,7 +132,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const switchToLoginButtons = dialogLayout.querySelectorAll('[data-login]');
 
         // Открытие модального окна при клике на кнопку "Войти"
-        loginMenuButton.addEventListener('click', () => {
+        loginButton.addEventListener('click', () => {
             dialogLayout.removeAttribute('hidden');
             selectPopup.removeAttribute('hidden');
 
@@ -265,12 +265,12 @@ document.addEventListener("DOMContentLoaded", () => {
                 errorMessage.textContent = 'Вход выполнен успешно';
                 errorMessage.style.color = 'green';
 
-                loginMenuButton.remove();
+                loginButton.remove();
 
                 const userHeader = `
                 <div class="header__user-block">
                     <svg width="64px" height="64px" viewBox="-4.08 -4.08 32.16 32.16" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#d45a25"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M5 21C5 17.134 8.13401 14 12 14C15.866 14 19 17.134 19 21M16 7C16 9.20914 14.2091 11 12 11C9.79086 11 8 9.20914 8 7C8 4.79086 9.79086 3 12 3C14.2091 3 16 4.79086 16 7Z" stroke="#ffa424" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
-                    <span class="header__login">${loginField}</span>
+                    <span class="header__user">${loginField}</span>
                 </div>
                     `;
 

@@ -9,20 +9,29 @@
   .container {
     padding-inline: 20px;
   }
+  .header__login {
+    font-size: 14px;
+  }
   .menu__list {
     gap: 10px;
   }
   .menu__link {
     font-size: 14px;
-    padding: 10px 15px;
   }
   .promo__button {
+    padding: 25px 65px;
     font-size: 24px;
   }
   .menu-list__cards {
     grid-template-columns: repeat(2, minmax(260px, 1.2fr));
     grid-template-rows: repeat(auto-fit, 1fr);
     gap: 30px;
+  }
+  .card__list {
+    flex-wrap: wrap;
+  }
+  .card__image {
+    max-width: 290px;
   }
   .reviews {
     margin-top: 90px;

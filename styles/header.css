@@ -17,6 +17,19 @@
   text-decoration: none;
   margin-right: auto;
 }
+.header__login {
+  font-family: "JacquesFrancois", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: #000;
+  text-decoration: none;
+  transition: color 0.25s ease-out;
+  margin-right: 25px;
+}
+.header__login:hover {
+  color: #8b8686;
+}
 .header__user-block {
   display: flex;
   justify-content: center;
@@ -25,7 +38,7 @@
   cursor: pointer;
 }
 
-.header__login {
+.header__user {
   color: #b48912;
   text-transform: uppercase;
 }

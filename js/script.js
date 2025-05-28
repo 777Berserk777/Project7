@@ -256,8 +256,8 @@ document.addEventListener("DOMContentLoaded", () => {
             const errorMessage = loginPopup.querySelector('#error-message-login');
 
             const users = {
-                'test': '12345678',
-                'student': '0987654321',
+                'ikigai': '12341234',
+                'user': '12345678',
             }
 
             if (users.hasOwnProperty(loginField) && users[loginField] === passwordField) {
